@@ -43,6 +43,7 @@
             this.labelLepusTitle.Size = new System.Drawing.Size(1034, 121);
             this.labelLepusTitle.TabIndex = 0;
             this.labelLepusTitle.Text = "LEPUS CONSTELLATION";
+            
             // 
             // labelName
             // 
@@ -74,8 +75,9 @@
             this.Controls.Add(this.labelParagraph);
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.labelLepusTitle);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "lepusConstellation";
-            this.Text = "Form1";
+            this.Text = "Lepus Constellation";
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
             this.ResumeLayout(false);
             this.PerformLayout();
